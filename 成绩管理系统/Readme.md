@@ -16,4 +16,4 @@
 如有代码运行、增添功能、代码修改...请联系QQ:970325546
 
 ## 打赏
-![支付宝](../zfb.jpg)
+![支付宝](https://github.com/picturetxl/homework/blob/master/zfb.jpg)

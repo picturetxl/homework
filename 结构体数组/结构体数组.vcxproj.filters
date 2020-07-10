@@ -25,18 +25,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="职工档案管理系统-结构体数组.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\Pictures\23.gif">
-      <Filter>资源文件</Filter>
-    </Image>
   </ItemGroup>
 </Project>

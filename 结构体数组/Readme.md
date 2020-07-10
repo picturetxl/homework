@@ -17,6 +17,6 @@
 
 
 ## ¥Ú…Õ
-![÷ß∏∂±¶](../zfb.jpg)
+![÷ß∏∂±¶](https://github.com/picturetxl/homework/blob/master/zfb.jpg)
 
 
