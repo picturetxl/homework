@@ -25,7 +25,6 @@ void show_menu() {
 	cout << "6.读取文件" << endl;
 	cout << "0.退出" << endl;
 }
-
 void show_node(struct Node node) {
 	printf("%10s%10s%10s%10s%10s%10s\n", "学号", "姓名", "课程编号", "课程名称", "成绩", "学分");
 	cout << setw(10) << node.sid;
@@ -36,7 +35,6 @@ void show_node(struct Node node) {
 	cout << setw(10) << node.xuefen;
 	cout << endl;
 }
-
 void do_init(struct Node people[], const string filename, int& len) {
 	ifstream readfile;
 	readfile.open(filename);
@@ -96,7 +94,6 @@ void do_read(string filename,struct Node people[],int& len) {
 	}
 	readfile.close();
 }
-
 bool do_save(string filename, struct Node people[], int length) {
 	ofstream out;
 	out.open(filename);
@@ -285,7 +282,6 @@ void do_delete(struct Node people[], int& length) {
 		cout << "删除完成" << endl;
 	}
 }
-
 int main() {
 	//0.建立数组和保存文件
 	struct Node people[MAXNUM];
